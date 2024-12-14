@@ -1,3 +1,8 @@
+/* Common styles*/
+body {
+    margin: 0px;
+}
+
 /* Common nav styles*/
 .navigation-wrapper {
     height: 190px;
@@ -7,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 100px;
 }
 
 .contact-hours-wrapper {

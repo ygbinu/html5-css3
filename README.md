@@ -21,4 +21,4 @@ padding: 60px 100px;
 ## Margin
 Espace entre le body et son contenu, par défaut il existe un marging 8px entre le body et son contenu.
 
-## 
+## Ajout d'icons awesone

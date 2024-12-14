@@ -15,12 +15,27 @@ body {
     padding: 60px 100px;
 }
 
-.contact-hours-wrapper {
-    color: royalblue;
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    /* double the normal size */
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 
 .adress-wrapper {
-    color: red;
 }
 
 .nav-link {

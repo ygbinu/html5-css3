@@ -70,3 +70,6 @@ CSS Grid Layout, ou simplement CSS Grid, est un système de mise en page puissan
 |                             | `justify-self`               | Aligne un élément individuellement horizontalement (`start`, `center`, etc.).              | `justify-self: end;`                                                                                           |
 |                             | `align-self`                 | Aligne un élément individuellement verticalement (`start`, `center`, etc.).                | `align-self: center;`                                                                                          |
 |                             | `place-self`                 | Abréviation pour `justify-self` et `align-self`.                                           | `place-self: center;`                                                                                         |
+
+## Importer des fonts dans le projet html
+Aller sur https://fonts.google.com/

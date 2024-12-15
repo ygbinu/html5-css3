@@ -25,8 +25,6 @@ CSS Flexbox, ou Flexible Box Layout, est un modèle de mise en page en CSS conç
 |                             | `align-self`                 | Aligne un élément individuellement sur l'axe transversal (verticalement).                   | `align-self: center;`                                                                                         |
 |                             | `order`                      | Définit l'ordre dans lequel un élément apparaît dans le conteneur (par défaut 0).           | `order: 2;`                                                                                                    |
 
-
-Active le mode Flexbox sur un conteneur et rend flexibile la mise en page de ses enfants car à différentes propriétés flex.
 ## Padding
 Espace entre un conteneur et son contenu. S'exprime en padding-top, padding-right, padding-bottom padding-left.
 La bonne pratique est d'exprimer la même valeure pour top et bottom et la même valeure pour right et left.
@@ -36,8 +34,6 @@ padding: 60px 100px;
 ```
 ## Margin
 Espace entre un conteneur et son environnement extérieur.
-
-## Selection et styles des tags enfants
 
 ## Propriétés CSS Grid
 CSS Grid Layout, ou simplement CSS Grid, est un système de mise en page puissant qui vous permet de créer des structures complexes en organisant les éléments dans un grille bidimensionnelle. Contrairement à Flexbox, qui est conçu pour travailler sur un axe principal (ligne ou colonne), CSS Grid travaille simultanément sur les axes ligne et colonne, ce qui en fait une solution idéale pour des mises en page plus sophistiquées.
@@ -70,6 +66,25 @@ CSS Grid Layout, ou simplement CSS Grid, est un système de mise en page puissan
 |                             | `justify-self`               | Aligne un élément individuellement horizontalement (`start`, `center`, etc.).              | `justify-self: end;`                                                                                           |
 |                             | `align-self`                 | Aligne un élément individuellement verticalement (`start`, `center`, etc.).                | `align-self: center;`                                                                                          |
 |                             | `place-self`                 | Abréviation pour `justify-self` et `align-self`.                                           | `place-self: center;`                                                                                         |
+
+## Différence entre flex et Grid et scénario d'utilisation
+### Flexbox (Flexible Box Layout)
+Conçu pour gérer une dimension (soit en ligne, soit en colonne).
+Idéal pour aligner des éléments dans un conteneur ou créer des dispositions simples, comme des barres de navigation ou des cartes alignées.
+
+### Grid (CSS Grid Layout)
+Conçu pour gérer deux dimensions (lignes et colonnes).
+Idéal pour créer des dispositions complexes, comme des grilles de contenu ou des pages entières.
+
+### Scénarion d'utilisation
+
+| **Scénario**                | **Flexbox**          | **Grid**              |
+|-----------------------------|----------------------|-----------------------|
+| Barre de navigation         | ✔️                  |                       |
+| Mise en page d'une galerie  | ✔️ (simple)         | ✔️ (complexe)        |
+| Page entière structurée     |                      | ✔️                   |
+| Alignement d'éléments       | ✔️                  | ✔️                   |
+
 
 ## Importer des fonts dans le projet html
 Aller sur https://fonts.google.com/

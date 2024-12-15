@@ -16,40 +16,41 @@ body {
     padding: 60px 100px;
 }
 
-.left-column {
+.navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
 }
 
-.icon {
+.navigation-wrapper > .left-column > .icon {
     margin-right: 15px;
 }
 
-.icon i {
+.navigation-wrapper > .left-column > .icon i {
     /* double the normal size */
     font-size: 2em;
 }
 
-.left-column > .contact-wrapper {
+.navigation-wrapper > .left-column > .contact-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
 
-.contact-wrapper > .hours {
+.navigation-wrapper > .left-column > .contact-wrapper > .hours {
     font-family: "Ubuntu Condensed", sans-serif;
 }
 
-.banner-image img {
+.navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
 }
 
-.nav-link a {
+.links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
 }
 
-.adress-wrapper {
+.navigation-wrapper > .right-column > .adress-wrapper {
     font-family: "Ubuntu Condensed", sans-serif;
 }
 

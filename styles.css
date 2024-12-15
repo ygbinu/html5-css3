@@ -38,6 +38,8 @@ body {
 
 .navigation-wrapper > .left-column > .contact-wrapper > .hours {
     font-family: "Ubuntu Condensed", sans-serif;
+    color: #858585;
+    font-size: 0.9em
 }
 
 .navigation-wrapper > .center-column {
@@ -63,13 +65,58 @@ body {
     align-items: center;
 }
 
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
 
 .links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/*Right column styles*/
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
 }
 
 .navigation-wrapper > .right-column > .adress-wrapper {
     font-family: "Ubuntu Condensed", sans-serif;
+    text-align: right;
 }
+
+.navigation-wrapper > .right-column > .adress-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .adress-wrapper a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .adress-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .adress-icon a {
+   color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .adress-icon a:hover {
+    color: #cea135;
+}
+
 
